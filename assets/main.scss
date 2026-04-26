@@ -1,0 +1,106 @@
+---
+---
+@import "minima";
+
+.post-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin: 1rem 0 1.25rem;
+}
+
+.post-content th,
+.post-content td {
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid #eef2f7;
+  vertical-align: top;
+}
+
+.post-content th {
+  background: #f8fafc;
+  white-space: nowrap;
+}
+
+.post-content tr:last-child td {
+  border-bottom: none;
+}
+
+.post-content table th:nth-child(1),
+.post-content table td:nth-child(1) {
+  width: 64px;
+  text-align: center;
+}
+
+.post-content table th:nth-child(3),
+.post-content table td:nth-child(3) {
+  width: 110px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.post-content table th:nth-child(4),
+.post-content table td:nth-child(4) {
+  width: 80px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.post-content table td:nth-child(2) a {
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #f1f5f9;
+}
+
+.archive-page {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1rem 0.75rem;
+}
+
+.archive-intro {
+  color: #475569;
+  margin-bottom: 0.75rem;
+}
+
+.archive-page h2 {
+  margin-top: 1rem;
+  font-size: 1.15rem;
+}
+
+.archive-page h2 small {
+  color: #64748b;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.archive-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.archive-list li {
+  display: flex;
+  gap: 0.65rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed #e2e8f0;
+}
+
+.archive-list li:last-child {
+  border-bottom: none;
+}
+
+.archive-date {
+  min-width: 3.2rem;
+  color: #64748b;
+  font-variant-numeric: tabular-nums;
+}

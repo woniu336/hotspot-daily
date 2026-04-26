@@ -4,5 +4,8 @@ theme: minima
 lang: zh-CN
 timezone: Asia/Shanghai
 baseurl: "/hotspot-daily"
+show_excerpts: true
+header_pages:
+  - archive.md
 plugins:
   - jekyll-feed
