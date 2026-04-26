@@ -1,0 +1,8 @@
+title: 每日热点日报
+description: 百度/微博/知乎 + AI 分析
+theme: minima
+lang: zh-CN
+timezone: Asia/Shanghai
+baseurl: "/hotspot-daily"
+plugins:
+  - jekyll-feed
