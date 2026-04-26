@@ -5,7 +5,9 @@
 .post-content table {
   display: block;
   width: 100%;
+  min-width: 700px;
   overflow-x: auto;
+  table-layout: fixed;
   border-collapse: collapse;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
@@ -30,27 +32,35 @@
 
 .post-content table th:nth-child(1),
 .post-content table td:nth-child(1) {
-  width: 64px;
+  width: 56px;
   text-align: center;
+  white-space: nowrap;
+}
+
+.post-content table th:nth-child(2),
+.post-content table td:nth-child(2) {
+  width: auto;
 }
 
 .post-content table th:nth-child(3),
 .post-content table td:nth-child(3) {
-  width: 110px;
+  width: 120px;
   text-align: right;
   white-space: nowrap;
 }
 
 .post-content table th:nth-child(4),
 .post-content table td:nth-child(4) {
-  width: 80px;
+  width: 88px;
   text-align: center;
   white-space: nowrap;
 }
 
+.post-content table td:nth-child(2),
 .post-content table td:nth-child(2) a {
   line-height: 1.5;
   word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .post-content h2 {
