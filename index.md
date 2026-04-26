@@ -10,3 +10,5 @@ title: 每日热点日报
 - 每天自动发布：一篇博客文章
 
 👉 [按月份查看全部文章（归档页）]({{ '/archive/' | relative_url }})
+
+👉 [按主题分类筛选文章（分类页）]({{ '/categories/' | relative_url }})

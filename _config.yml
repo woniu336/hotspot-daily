@@ -7,5 +7,6 @@ baseurl: "/hotspot-daily"
 show_excerpts: true
 header_pages:
   - archive.md
+  - categories.md
 plugins:
   - jekyll-feed

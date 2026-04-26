@@ -5,7 +5,7 @@ permalink: /archive/
 ---
 
 <div class="archive-page">
-  <p class="archive-intro">按月份浏览每日热点报告。</p>
+  <p class="archive-intro">按月份浏览每日热点报告。也可前往 <a href="{{ '/categories/' | relative_url }}">分类页</a> 按主题筛选。</p>
 
   {% assign month_groups = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
   {% for month in month_groups %}
